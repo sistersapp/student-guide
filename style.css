@@ -1,0 +1,468 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Cairo', sans-serif;
+  box-sizing: border-box;
+}
+
+/* nav */
+
+.Navbar {
+  background-color: #8D64A8;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+.Navbar-Items {
+  display:flex;
+  
+}
+
+.Navbar-Link {
+  padding-right: 30px;
+}
+.Navbar-Link > a{
+  text-decoration:none;
+  font-size: 18px;
+  color:white;
+  font-weight: bold; 
+}
+.Navbar-Items-right {
+  margin-right:auto;
+}
+.Navbar-link-btn>a{
+  padding: 3px 10px;
+  background: #8D64A8;
+  border-radius: 25px;
+  border: 1px solid white;
+  font-weight: bold;
+    
+}
+.Navbar-Link a:hover {
+  color:rgb(226, 171, 223);
+  
+}
+.Navbar-Items-right a:hover{
+color:white;
+}
+/* end nav */
+
+
+
+/* head */
+
+
+.Row{
+  background: #8D64A8;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0% 0% 200vh 200vh  / 0% 0% 20vh  20vh ;
+  padding-bottom: 50px;
+ 
+  
+}
+.Side1{
+  flex:20%;
+  
+}
+.Side2{
+  flex:20%;
+  
+}
+.Middle{
+flex:60%;
+/* padding: 10px; */
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+color: white;
+
+}
+.Middle h1{
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+/* end head */
+
+
+/* college */
+.Row2{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  
+   
+}
+.Title h1{
+    padding-top:40px;
+    padding-bottom:30px; 
+    text-align: center;
+    color:rgb(51, 50, 50);
+    font-weight:bold;
+}
+
+.Col1,.Col2{
+    padding: 40px;
+    margin-top:40px;
+    flex:45%;
+    text-align: center;  
+    margin:0;
+    padding:0; 
+}
+.Col1{
+    border-left:1px solid rgb(204, 197, 197);
+}
+.Col2{
+    border-right:1px solid rgb(204, 197, 197);
+}
+
+.Col1 button,.Col2 button{
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius:5px;
+    border: 2px solid #8D64A8;
+    background: white;
+}
+
+/* end college */
+
+/* institude */
+.institude{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.institude h1{
+  text-align: center;
+}
+.slider {
+  
+  width: 62%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: 1;
+}
+
+.slick-active {
+opacity: 1;
+}
+
+.slick-current {
+opacity: 1;
+}
+h3 , p{
+text-align: center;
+}
+/* end institude */
+
+/******news******/
+ div.newsall{
+  width: 100%;
+  margin-top:50px ;
+  margin-bottom: 80px; 
+  display:flex;       
+  }
+
+   div.news-parent{
+   display: flex;
+   flex-wrap:wrap;       
+   color: white; 
+   border: 1px solid #8D64A8 ;      
+   }
+
+  div.newsfont{
+   background-color:#8D64A8  ;    
+   flex: 50%;
+            
+   }
+
+   div.newsimg{           
+   flex: 45%;   
+   border: px solid #8D64A8  ;   
+   display: flex;
+   position:relative ;      
+  }    
+
+  img.news{
+  height:100%;
+  width:100%;              
+  position:absolute;            
+ }
+
+ h1.news{
+  margin-top: 80px;
+  text-align: center;  
+  font-size: 28px;  
+ }
+
+ p.news{
+  margin-right: 20px;
+  margin-left: 15px;
+  text-align: justify;
+  margin-top: 40px;
+  line-height: 30px;
+  font-size: 18px;   
+  padding:50px;
+ }
+
+ button.news{       
+  display: flex;
+  margin: 0 auto;       
+  color: white;
+  background-color:#8D64A8 ;
+  justify-content: center;
+  margin-top: 40px;
+  height: 60px;
+  width:160px ;
+  border-radius:30px;
+  border: 1px solid white ;
+  font-size: 20px;
+  margin-bottom:10%; 
+ }    
+   /*****news end*****/
+        
+    
+    /******call-us*****/
+    div.call-us{     
+    width: 100%;           
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    background-color:;  
+    }
+  
+   div.call-us-parent{
+   background-color:;   
+   width:75%; 
+   margin: 0 auto; 
+   margin-top: 70px;
+   margin-bottom:100px ;  
+   }   
+
+   div.call{
+   width:100% ;  
+   display: flex;  
+   padding:25px;   
+   align-items: center;
+   justify-content: center;
+  
+   } 
+
+   div.call-h1{
+    text-align: center;     
+    width: 100%;
+    font-size: 30px;
+    opacity: ;   
+    text-shadow: 2px 2px 2px  #8d6488;
+  }
+ 
+  
+   input[type=text].call-frm {
+    width:60%;
+    height: 100px;     
+    border-radius: 10px;
+    box-sizing: border-box;    
+    border: 0px solid #8d6488;
+    padding: 12px 6%;
+    background-image: url('./img/person.svg');  
+    background-repeat: no-repeat;
+    background-position: 97% 50%; 
+    background-size: 40px 30px;
+    font-size:28px; 
+    opacity: 0.5;
+    box-shadow: 1px 1px 1px 1px #8d6488;
+     } 
+
+     input[type=email].call-frm{      
+      height: 100px; 
+      width: 60%;    
+      border: 0px solid #8d6488;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 12px 6%;
+      background-image: url('./img/014-message.svg'); 
+      background-repeat: no-repeat;
+      background-size: 40px 30px;
+      background-position: 97% 50%; 
+      font-size:28px; 
+      opacity: 0.5;
+      box-shadow: 1px 1px 1px 1px #8d6488;
+    }     
+  
+      textarea.call-frm{
+      width:60%;
+      height:200px ;        
+      border-radius: 10px;
+      padding: 12px 20px;   
+      box-sizing: border-box;      
+      border:0px solid #8d6488;
+      font-size:28px; 
+      opacity: 0.5;
+      box-shadow: 1px 1px 1px 1px #8d6488;
+     
+       }  
+       
+      input[type=submit].btn {    
+      height: 60px;
+      width:16%; 
+      border-radius: 10px;   
+      font-size:24px;
+      font-weight: bold;      
+     /* box-shadow: 1px 1px 1px 1px #ad95ab;*/
+      border: 1px solid #8d6488;
+      background-color: #8D64A8;
+      text-align: center;   
+      color:white;         
+    }        
+        
+  /*****call-us end****/
+        
+        
+    /*****footer*****/
+    footer.ftr{      
+      height: 400px;
+      width: 100%;      
+      background-color:#8D64A8 ;
+      display: flex;
+      align-items: center; 
+      justify-content: center;   
+      border-radius: 50%/100px 100px 0 0;   
+      margin-top:px; 
+      }
+     
+      div.ftr1{
+      display: flex;
+      justify-content: center;  
+      justify-content: ; 
+      margin-left:10px;
+      margin-top: 40px;
+      margin-bottom: 25px;
+      }  
+       div.ftr2{
+          margin-right:5px ;
+          padding: 20px;
+      }     
+      
+      img#ftrsvg{
+          height: 60px;
+          width: 60px;
+          margin-right:25px; 
+      }
+      h2.footer{
+          color: white;
+          font-size: 28px;
+          font-weight: bold;
+          margin-right:5px;
+          margin-left: 5px;
+          text-align: center;
+          line-height: 40px;     
+      }        
+    
+     /*****footer end****/
+
+
+
+
+     /* media query of nav    */
+     @media only screen and (max-width: 768px) {
+      .Navbar-Items,
+      .Navbar {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+      }
+      
+      .Navbar-Items-right {
+        margin-right:0;
+        
+      }
+      .Navbar-link{
+        padding: 10px;
+      }
+    }
+    
+     /*end media query of nav    */
+
+     /* media query of header */
+    @media screen and(max-width: 600px){
+    .Row {   
+        flex-direction:column;
+    }
+    .Side2>img{
+        width:30%;    
+    }
+    .Middle h1{
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+    }
+   }
+    /*end  media query of header */
+    
+    /* media query of college */
+     @media screen and (max-width: 600px) {
+      .Row2 {   
+          flex-direction: column;   
+      }
+      
+      .Col1 , .Col2{
+          border:hidden;   
+      }
+     
+     
+      
+      }
+      
+    /* end media query of college */ 
+
+    /*  media query of call-us*/ 
+    @media screen and (max-width: 600px) {
+      div.call-us-parent {   
+          width:100% ;             
+       }
+      
+      input[type=text].call-frm {
+          width: 98%;   
+          height: 80px;
+          padding: 12px 18%;
+          font-size: 18px
+       }
+     
+       input[type=email].call-frm {
+        width: 98%;
+        height: 80px; 
+        padding: 12px 18%; 
+        font-size: 18px;
+     }
+     textarea.call-frm {
+      width: 98%; 
+      height: 180px;  
+      font-size: 18px;
+     }
+     input[type=submit].btn{
+      width: 50%;
+      height: 50px;
+      font-size: 18px;
+     }
+     
+    }
+    /* end media query of call-us*/  
